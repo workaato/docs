@@ -69,3 +69,5 @@ Explore Workato's [documentation](https://docs.workato.com/) for in-depth guides
 If you encounter issues or have questions, visit the [Workato support](https://support.workato.com/) page for assistance.
 
 ---
+
+Now that you've completed these steps, you're on your way to leveraging Workato for efficient automation and integration. Happy automating!
