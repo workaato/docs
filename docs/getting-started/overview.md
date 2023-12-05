@@ -69,3 +69,5 @@ Explore Workato's [documentation](https://docs.workato.com/) for in-depth guides
 If you encounter issues or have questions, visit the [Workato support](https://support.workato.com/) page for assistance.
 
 ---
+
+Feel free to reach out to our support team if you face any issues. Happy automating!
