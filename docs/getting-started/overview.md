@@ -70,4 +70,4 @@ If you encounter issues or have questions, visit the [Workato support](https://s
 
 ---
 
-Feel free to reach out to our support team if you face any issues. Happy automating!
+Feel free to reach out to our support team if you face any issues.
