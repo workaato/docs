@@ -1,27 +1,20 @@
-Markdown file: 
+# Automation HQ の概要
 
-# オートメーションHQの概要
-
-WorkatoのオートメーションHQページへようこそ。
+オートメーションＨＱへようこそ。
 
 ---
 
-## Automation HQとは？
-Workatoの<font style="color:blue">Automation HQ​</font>は、さまざまなアプリケーションの間の連携を始め、Amazon Alexaを活用した対話型インテグレーションの開発で使える <font style="color:blue">workbot​</font>開発キット、<font style="color:blue">Kubernetes​</font>などのコンテナ化ランナー、<font style="color:blue">CFML/CDI​</font>コネクタとエンジンなど様々な領域で活用できるプロダクトが展開されています。
+## What is Automation HQ?
 
-Automation HQは、さまざまなアプリケーションを使いこなすための、すべてのウェブ・モビリティのデプロイ、管理、検索、レシピ・ライブラリが備えるインテグレーション・ソリューション製品群です。
-
-WorkatoのAutomation HQでは、新規プロセス、大胆な変革はもちろん、相互運用性、カスタマイズ、スケーラビリティ、非公開をすばやく超え、コミュニティの商業レポートを開くことができます。
-
+Automation HQ is a centralized platform that allows you to build, manage, and monitor your integrations and automations. It provides a user-friendly interface and powerful tools to streamline your business processes.
 
 ---
 
-## 主な機能
+## Key Features
 
-### 1. インテグレーションビルダー
-Integration Builderは、Workatoから送信されるAPIリクエストレシピ部分がなくなる。
+### 1. Integration Builder
 
-AutomationHQのインテグレーションビルダーでは、Workatoを介して連携させたい各価値あるアプリケーションをWorkatoにワークフローに転送することができます。ナレッジベースの多くの組み合わせが使いやすい簡単な手順だけで迅速に個々のアプリケーションやビジネスプロセスを連携させることができるため、必要な分布に応じて使用することができます。
+Automation HQ's Integration Builder allows you to create integrations between different applications without writing any code. It provides a visual interface where you can drag and drop connectors and configure them to automate your workflows.
 
 ### 2. Recipe Library
 
