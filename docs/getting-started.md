@@ -5,7 +5,7 @@ date: 2020-07-28 10:00:00 Z
 
 # Getting started
 
-Everything you need to get up and running on Workato.
+Learn how to get started in Workato.
 
 
 <Video src="https://www.youtube.com/embed/1WCIlfUQq-s"/>
