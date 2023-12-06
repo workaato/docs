@@ -17,7 +17,10 @@ The following steps guide you through building a recipe that closes a case in Sa
 For information on how to generate the API token, see [create API token in Atlassian](/connectors/jira.md#how-to-connect-to-jira-on-workato)
 * To connect to your Salesforce account, you need your username and password.
 
-
+## Step 1: Open a new recipe
+<!-- reveal after projects is released and remove the current step 1
+1. Navigate to **Projects** and either select an existing project or click **New Project**.
+-->
 
 1. Navigate to **Assets** and click **Create Recipe**.
 2. Enter `My first recipe` in the **Name** field.
