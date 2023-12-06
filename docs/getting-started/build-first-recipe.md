@@ -7,6 +7,7 @@ date: 2021-05-20 18:00:00 Z
 ::: details Build your first recipe with this video guide
 <Video src="https://www.youtube.com/embed/H4MMLklNpPU"/>
 :::
+
 A recipe is an automated workflow that connects your apps. Each recipe is comprised of a trigger and one or more actions. When you turn on your recipe, it waits for a triggering event to run the actions.
 
 The following steps guide you through building a recipe that closes a case in Salesforce when an issue with the same name in Jira closes.
