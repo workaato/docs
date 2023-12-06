@@ -12,7 +12,7 @@ Workato Tools help perform three main functions: Build recipes, connect apps and
 
 ## Building recipes
 
-Tools for building recipes are often associated with connectors, triggers, and actions that users can select while building recipes. For example, setting up a lookup table in tools will allow the use of actions in the recipe which adds, removes, or updates the lookup table using the connector in a recipe.
+Tools for building recipes are often associated with connectors, triggers, and actions that users can select while building recipes. For example, setting up a lookup table in tools will allow the use of actions in the recipe that add, remove, or update the lookup table using the connector in a recipe.
 
 ![Using lookup table](~@img/features/tools/add-entry-to-lookup-table.png)
 *Using the add entry action in a recipe creates new row in an existing lookup table*
