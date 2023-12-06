@@ -11,7 +11,7 @@ This document provides a step-by-step guide for installing Accelerator AIML in y
 ## Table of Contents
 
 - [Prerequisites](#prerequisite)
-- [Installation Steps](#installation-step)
+- [Installation Steps](#installation)
 - [Post-Installation Checks](#post-installation)
 - [Upgrading Accelerator AIML](#upgrading-accelerator)
 
