@@ -3,20 +3,10 @@ title: Recipe Components - App Connections
 date: 2021-10-21 18:00:00 Z
 ---
 
-# App connections
-
-::: tip SUMMARY
-- Workato connects to apps to build recipes, with each connection reusable across multiple recipes.
-- Connections require the "Create Connections" privilege and use the app's authentication API with various methods like OAuth or Basic authentication.
-- Workato's data access is tied to the user's permissions, and connections can be made within the recipe editor or through the connection wizard.
-- Multiple app instances require distinct connections.
-:::
-
+# App Connections
 ::: details Watch a quick video guide
 
 <Video src="https://www.youtube.com/embed/m3lajUatO7w" />
-
-:::
 
 When you start building a recipe, the first step is establishing a connection between Workato and an app.
 
@@ -31,7 +21,7 @@ In this guide, we'll cover:
 
 ---
 
-## Connection basics 
+## Connection Basics
 
 - [Who can create connections?](#who-can-create-connections)
 - [How does Workato access my connections?](#how-does-workato-access-my-connections)
@@ -40,7 +30,7 @@ In this guide, we'll cover:
 
 ### Who can create connections?
 
-To create connections, you need the [**Create Connections** privilege](/privileges.md#connection).
+To create connections, you need the [**Create Connections** privilege](/user-accounts-and-teams/role-based-access/collaborator-roles-and-permissions.md#recipe-development-privileges).
 
 Refer to the [Creating connections](#creating-connections) section for instructions.
 
@@ -86,7 +76,7 @@ For additional info, refer to the [Using connections in recipes](#using-connecti
 
 ---
 
-## Creating connections
+## Creating Connections
 
 There are two ways to connect apps in Workato:
 
@@ -129,7 +119,7 @@ You can access the connection wizard from a few places in Workato:
 
 ---
 
-## Using connections in recipes
+## Using Connections in Recipes
 
 ::: warning IMPORTANT!
 Before triggers and actions can be configured in recipes, valid connections to apps must be established.
@@ -138,7 +128,7 @@ Before triggers and actions can be configured in recipes, valid connections to a
 - [Multiple app instances, one recipe](#multiple-app-instances-one-recipe)
 - [Runtime user connections](#runtime-user-connections)
 
-### Multiple app instances, one recipe
+### Multiple App Instances, One Recipe
 
 Typically, you'll have one or two instances of an app - one for production and perhaps another for testing. In a scenario like this, you'd likely need one connection to use across multiple recipes.
 
@@ -146,19 +136,9 @@ When you have multiple instances of an app, multiple connections should be creat
 
 Most connectors only allow one connection per app, per recipe. Should you need to work with two separate instances of an app, you can use [Secondary connectors](/features/secondary-connectors.md).
 
-::: note SECONDARY CONNECTORS
+**Note**: Secondary connectors aren't supported for all Workato connectors.
 
-Workato *does not* support secondary connectors for all Workato connectors.
-
-If the app(s) you plan to use do not have secondary connectors, then you are limited to one connection per app, per recipe.
-
-If you try to connect to multiple instances of an app that does not support secondary connectors within the same recipe, Workato prevents you from doing so. When you create the second connection, it will automatically override your first connection and replace it with the second connection.
-
-For example, let's say you have a recipe trigger called **New email in Gmail** that uses the **My Gmail account** connection. If a subsequent step in the recipe also involves a Gmail action, it must use the same connection. If you attempt to use a different connection, such as **My second Gmail account**, Workato will update the **New email in Gmail** trigger's connection to **My second Gmail account**.
-
-:::
-
-### Runtime user connections
+### Runtime User Connections
 
 :::tip AVAILABLE IN CALLABLE & WORKBOT RECIPES
 The **Runtime user connections** feature is only available in Callable or Workbot recipes.
@@ -172,7 +152,7 @@ Learn more in the [Runtime user connections docs](/features/runtime-user-connect
 
 ---
 
-## Connection errors
+## Connection Errors
 
 On occasion, app connections can become invalid. These are the most common reasons:
 
