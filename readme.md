@@ -1,10 +1,10 @@
-# Project Documentation Repository
+# Workato Documentation Repository
 
-## Welcome to the [Project Name] Documentation Repository!
+## Welcome to the Workato Documentation Repository!
 
 ### Overview
 
-This repository contains comprehensive documentation for [Project Name]. Whether you're a developer, contributor, or end user, this documentation serves as a central hub for understanding, implementing, and maintaining [Project Name].
+This repository contains comprehensive documentation for Workato. Whether you're a developer, contributor, or end user, this documentation serves as a central hub for understanding, implementing, and maintaining Workato docs.
 
 ### Table of Contents
 
@@ -22,7 +22,7 @@ This repository contains comprehensive documentation for [Project Name]. Whether
 
 ### Introduction
 
-[Project Name] is a [brief description of the project]. This documentation provides a comprehensive guide to help you understand the project's purpose, features, and how to use it effectively.
+Workato is an Integrative Platform as a Service (IPaaS). This documentation provides a comprehensive guide to help you understand the project's purpose, features, and how to use it effectively.
 
 ### Getting Started
 
@@ -34,13 +34,13 @@ Before you begin, ensure you have met the following requirements:
 
 #### Installation
 
-Follow these steps to install [Project Name]:
+Follow these steps to install Workato:
 
 1. [Step-by-step installation instructions]
 
 ### Usage
 
-Learn how to use [Project Name] by referring to the [usage documentation]. This section provides detailed explanations, examples, and best practices for utilizing the project.
+Learn how to use Workato by referring to our documentation. This section provides detailed explanations, examples, and best practices for utilizing the project.
 
 ### Contributing
 
